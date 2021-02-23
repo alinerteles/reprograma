@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background: url(../imagens/aline-design.png) center no-repeat;
+    height: 70vh;
+    text-align: center;
+    padding-top: 10rem;
+    background-size: cover;
+}
+
+.banner-titulo {
+    font-size: 5rem;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+}
+
+.banner-subtitulo {
+    font-size: 2.3rem;
+    color: white;
+    padding-bottom: 6rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.btn-branco {
+    color: #7E459B;
+    background-color: white;
+   margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sobre-titulo {
+    font-size: 6rem;
+    color: #C4c4C4;
+}
+
+.sobre-descricao,
+.sobre-habilidades {
+    width: 40%;
+    display: inline-block;
+    list-style: 1.5;
+}
+
+.sobre-descricao-destaque,
+.sobre-descricao-texto,
+.sobre-habilidades-titulo {
+    font-size: 2rem;
+}
+
+.u-margin-bottom-peq {
+    margin-bottom: 2rem;
+}
+
+.btn-roxo {
+    color: #7E459B;
+    border: 1px solid #7E459B;
+}
+
+.sobre-habilidades-lista, .sobre-habilidades-titulo {
+    padding-left: 10rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+
+
+html {
+    font-size: 10px;
+    /* faz o reset do rem */
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.sobre-padding-left {
+    padding-left: 10rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+/* .redes-sociais{
+
+} */
+
+.redes-sociais-link {
+    display: inline-block;
+    width: 200px;
+    background-color: #7E459B;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+    text-align: center;
+}
+
